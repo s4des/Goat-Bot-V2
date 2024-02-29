@@ -1,4 +1,4 @@
- const fs = require('fs');
+const fs = require('fs');
 const moment = require('moment-timezone');
 
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("✅ | You have been added to the nemo group chat.\check your Spam or Message Request folder if you can't find the group chat.", event.threadID);
+        api.sendMessage("✅ | You have been added to the wendy IA group chat.\check your Spam or Message Request folder if you can't find the group chat.", event.threadID);
 
         // Set ✅ reaction for successfully added user
         api.setMessageReaction("✅", event.messageID, "👍", api);
