@@ -1,29 +1,22 @@
 module.exports = {
 	config: {
 		name: "hentai",
-		aliases: ["hanime"],
+		aliases: [],
 		version: "1.0",
-		author: "LuXion",
+		author: "kivv",
+    
+
 		countDown: 5,
 		role: 2,
-		shortDescription: "sends random hentai img",
+		shortDescription: "developer only dear",
 		longDescription: "",
 		category: "18+",
 		guide: "{pn}"
 	},
-	onStart: async function ({ message, usersData, args,event,api }) {
-    const { senderID } = event;
-    const userData = await usersData.get(senderID);
-    const userMoney = await usersData.get(senderID, "money");
-    if(userMoney < 500) {
-      return api.sendMessage("You need to pay 500$ to use this command.", event.threadID, event.messageID);
-    } else {
-      usersData.set(senderID, {
-        money: userData.money - 500,
-        data: userData.data
-      });
-	    const link = [
-        "https://i.imgur.com/mNesqCm.jpg",
+
+	onStart: async function ({ message }) {
+	    var link = [
+   "https://i.imgur.com/mNesqCm.jpg",
 "https://i.imgur.com/ChtMmje.jpg",
 "https://i.imgur.com/2oTwWjZ.png",
 "https://i.imgur.com/ZOcTTvR.jpg",
@@ -135,12 +128,13 @@ module.exports = {
 "https://i.imgur.com/sAbp1dU.jpg",
 "https://i.imgur.com/GSSJLSF.png",
 "https://i.imgur.com/vDM906Y.jpg",
-"https://i.imgur.com/hCoFifQ.jpg"        
-];
-const img = link[Math.floor(Math.random() * link.length)];
-			api.sendMessage({
-				attachment: await global.utils.getStreamFromURL(img)
-			}, event.threadID,event.messageID);
-		}
-	}
-};
+"https://i.imgur.com/hCoFifQ.jpg"    
+        
+]
+
+let img = link[Math.floor(Math.random()*link.length)]
+message.reply({body: "here's your random hentai ❤️",
+  attachment: await global.utils.getStreamFromURL(img)
+})
+}
+}
