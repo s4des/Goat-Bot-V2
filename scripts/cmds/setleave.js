@@ -75,7 +75,7 @@ module.exports = {
 			turnedOn: "Turned on leave message successfully",
 			turnedOff: "Turned off leave message successfully",
 			missingContent: "Please enter content",
-			edited: "Edited leave message content of your group to:\n%1",
+			edited: "🚷Adieu {UserName} , mes regrets de ne pas t'avoir protégé, mais je crois en toi pour poursuivre ton chemin. Tu es plus fort que tu ne le penses. Adieu, mon ami.😒 :\n%1",
 			reseted: "Reseted leave message content",
 			noFile: "No leave message attachment file to reset",
 			resetedFile: "Reseted leave message attachment file successfully",
