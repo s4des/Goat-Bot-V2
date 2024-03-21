@@ -44,8 +44,8 @@ module.exports = {
         // Set ✅ reaction for successfully added user
         api.setMessageReaction("✅", event.messageID, "👍", api);
       }
-    } catch (error) {
-      api.sendMessage("❌ | Failed to add you to the group chat.\join through the link:", event.threadID);
+    } catch (error) {u
+      api.sendMessage("❌ | Failed to add you to the group chat.\join through the link:7257899287658188", event.threadID);
 
       // Set ❌ reaction for failed adding user
       api.setMessageReaction("❌", event.messageID, "👍", api);
