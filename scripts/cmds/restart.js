@@ -27,7 +27,7 @@ module.exports = {
 			restartting: "🔄 | Đang khởi động lại bot..."
 		},
 		en: {
-			restartting: "⚪⚫🔵🔴"
+			restartting: "𝕮𝖍𝖆𝖗𝖌𝖊𝖒𝖊𝖓𝖙 𝖉𝖞 𝖈𝖍𝖆𝖐𝖗𝖆"
 		}
 	},
 
