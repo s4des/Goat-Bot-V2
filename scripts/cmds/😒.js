@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "😒") return message.reply("お前は最低だ、面白くなれ");
+    if (event.body && event.body.toLowerCase() == "😒") return message.reply("Mouf😪 va loin enfant maudit");
 }
 };
