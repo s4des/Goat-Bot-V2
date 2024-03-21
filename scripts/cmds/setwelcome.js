@@ -71,7 +71,7 @@ module.exports = {
 			turnedOn: "Turned on welcome message",
 			turnedOff: "Turned off welcome message",
 			missingContent: "Please enter welcome message content",
-			edited: "Edited welcome message content of your group to: %1",
+			edited: "🔞Bienvenue dans notre groupe, nous sommes ravis de t'accueillir parmi nous. N'oublie pas que la loyauté envers Itachi est primordiale, et que tout manquement à sa volonté pourrait avoir des conséquences maléfiques. Nous comptons sur toi pour te montrer digne de sa confiance et de son respect. Bienvenue parmi les fidèles d'Itachi. : %1",
 			reseted: "Reseted welcome message content",
 			noFile: "No file attachments to delete",
 			resetedFile: "Reseted file attachments successfully",
