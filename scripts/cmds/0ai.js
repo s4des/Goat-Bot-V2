@@ -3,7 +3,7 @@ const axios = require('axios');
 const Prefixes = [
   '√ai',
   'Itachi',
-  'Nemo',
+  'Itachi',
   '+ai',
   'nemo',
   'ai',
@@ -31,8 +31,8 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("📪Hé, je suis ton assistant virtuel 📱, pose-moi une question 🐰");
-        return;
+        await message.reply("🔞N'ayez pas peur de poser des questions. C'est le moyen le plus sûr d'apprendre😒.");
+        return; de
       }
 
 
