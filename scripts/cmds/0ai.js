@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🔞N'ayez pas peur de poser des questions. C'est le moyen le plus sûr d'apprendre😒.");
+        await message.reply("🔞Ｎ'ａｙｅｚ ｐａｓ ｐｅｕｒ ｄｅ ｐｏｓｅｒ ｄｅｓ ｑｕｅｓｔｉｏｎ. ｃ'ｅｓｔ ｌｅ ｍｏｙｅｎ ｌｅ ｐｌｕｓ ｓｕ̂ｕｒ ｄ" ａｐｐｒｅｎｄｒｅ😒.");
         return; de
       }
 
