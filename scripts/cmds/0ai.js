@@ -2,8 +2,8 @@ const axios = require('axios');
 
 const Prefixes = [
   '√ai',
-  'Itachi',
-  'Itachi',
+  'Salut',
+  'wendy',
   '+ai',
   'nemo',
   'ai',
@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🔞N'ayez pas peur de poser des questions. C'est le moyen le plus sûr d'apprendre😒.");
+        await message.reply("🌊𝑃𝑜𝑠𝑒 𝑚𝑜𝑖 𝑡'𝑒𝑠 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛,𝑁𝑒 𝑓𝑎𝑖𝑡 𝑝𝑎𝑠 𝑡𝑎 𝑡𝑖𝑚𝑖𝑑𝑒🙈.");
         return; de
       }
 
