@@ -45,7 +45,7 @@
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": " 𝙸𝚃𝙰𝙲𝙷𝙸 𝚄𝙲𝙷𝙸𝚆𝙰 ಢ‸ಢ  ",
+  "nickNameBot": " 𝑊𝐸𝑁𝐷𝑌 𝐼𝐴 ಢ‸ಢ  ",
   "prefix": "*",
   "database": {
     "type": "sqlite",
