@@ -1,9 +1,9 @@
 const axios = require('axios');
 
 const Prefixes = [
-  '√ai',
-  'itachi',
-  'Itachi',
+  'Goats',
+  'wendy',
+  'Mitama',
   '+ai',
   'nemo',
   'ai',
@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("⚠️𝑷𝒐𝒔𝒆𝒛 𝒗𝒐𝒔 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏,𝑶𝒖 𝒕𝒂𝒊𝒔𝒆𝒛 𝒗𝒐𝒖𝒔 𝒂 𝒋𝒂𝒎𝒂𝒊𝒔 𝒑𝒂𝒖𝒗𝒓𝒆 𝒎𝒐𝒓𝒕𝒆𝒍𝒍𝒆（︶^︶）=凸.");
+        await message.reply("🌊𝑃𝑂𝑆𝐸𝑍 𝑉𝑂𝑇𝑅𝐸 𝑄𝑈𝐸𝑆𝑇𝐼𝑂𝑁 ಢ‸ಢ .");
         return; de
       }
 
@@ -42,7 +42,7 @@ module.exports = {
 
     await message.reply({ body: `
 
-(╬￣皿￣)凸 𝑰𝑻𝑨𝑪𝑯𝑰 𝑰𝑨
+ಢ‸ಢ  𝐼𝐴
 ======================    
 ${answer}
 ======================𝑶𝑾𝑵𝑬𝑹 𝑩𝒀 𝑻𝒆𝑻𝒐ಢ‸ಢ `,
